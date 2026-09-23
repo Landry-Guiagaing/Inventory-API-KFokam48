@@ -1,0 +1,24 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: inventory-api-postgres
+
+    environment:
+      POSTGRES_DB: inventorydb
+      POSTGRES_USER: inventoryuser
+      POSTGRES_PASSWORD: inventorypass
+
+    ports:
+      - "5436:5432"
+
+    volumes:
+      - inventory_api_pgdata:/var/lib/postgresql/data
+
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U inventoryuser -d inventorydb"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  inventory_api_pgdata:

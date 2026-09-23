@@ -1,0 +1,12 @@
+/home/guiagaingtatoutlandry/Documents/API/inventory-api/src/main/java/com/inventoryapi/InventoryApiApplication.java
+/home/guiagaingtatoutlandry/Documents/API/inventory-api/src/main/java/com/inventoryapi/config/OpenApiConfig.java
+/home/guiagaingtatoutlandry/Documents/API/inventory-api/src/main/java/com/inventoryapi/controller/ProductController.java
+/home/guiagaingtatoutlandry/Documents/API/inventory-api/src/main/java/com/inventoryapi/dto/ProductRequest.java
+/home/guiagaingtatoutlandry/Documents/API/inventory-api/src/main/java/com/inventoryapi/dto/ProductResponse.java
+/home/guiagaingtatoutlandry/Documents/API/inventory-api/src/main/java/com/inventoryapi/entity/Product.java
+/home/guiagaingtatoutlandry/Documents/API/inventory-api/src/main/java/com/inventoryapi/exception/ErrorResponse.java
+/home/guiagaingtatoutlandry/Documents/API/inventory-api/src/main/java/com/inventoryapi/exception/GlobalExceptionHandler.java
+/home/guiagaingtatoutlandry/Documents/API/inventory-api/src/main/java/com/inventoryapi/exception/ProductNotFoundException.java
+/home/guiagaingtatoutlandry/Documents/API/inventory-api/src/main/java/com/inventoryapi/mapper/ProductMapper.java
+/home/guiagaingtatoutlandry/Documents/API/inventory-api/src/main/java/com/inventoryapi/repository/ProductRepository.java
+/home/guiagaingtatoutlandry/Documents/API/inventory-api/src/main/java/com/inventoryapi/service/ProductService.java
